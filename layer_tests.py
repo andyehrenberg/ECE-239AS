@@ -1,13 +1,3 @@
-""" 
-This code was originally written for CS 231n at Stanford University
-(cs231n.stanford.edu).  It has been modified in various areas for use in the
-ECE 239AS class at UCLA.  This includes the descriptions of what code to
-implement as well as some slight potential changes in variable names to be
-consistent with class nomenclature.  We thank Justin Johnson & Serena Yeung for
-permission to use this code.  To see the original version, please visit
-cs231n.stanford.edu.  
-"""
-
 from nndl.layers import *
 from cs231n.gradient_check import eval_numerical_gradient, eval_numerical_gradient_array
 from nndl.layer_utils import affine_relu_forward, affine_relu_backward
